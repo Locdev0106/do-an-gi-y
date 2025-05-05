@@ -1,0 +1,68 @@
+/* Success.css */
+.success30 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #E8F8F5; 
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.success-message30 {
+  background-color: white;
+  border-radius: 12px;
+  padding: 40px 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+}
+
+.success-icon30 {
+  color: #1ABC9C; 
+  font-size: 70px;
+  animation: spin 3s infinite;
+}
+
+.success30 h2 {
+  color: #148F77; 
+  margin-top: 20px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.success30 p {
+  font-size: 16px;
+  color: #555; 
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* Hiệu ứng "nhảy" cho biểu tượng */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.back-home {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #1ABC9C; 
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.back-home:hover {
+  background-color: #148F77; 
+  transform: scale(1.05);
+}

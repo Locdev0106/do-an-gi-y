@@ -1,0 +1,95 @@
+.product-card-sale {
+    border: 1px solid #fff;
+    border-radius: 1px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05); 
+  }
+  .product-khung-sale {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    height: 350px;
+  }
+  
+  .product-image-sale {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .product-name-sale {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .product-price-sale {
+    color: #333;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .product-actions-sale {
+    padding: 15px 30px;
+  }
+  
+  .add-to-cart-sale, .buy-now-sale {
+    background-color: #852E4E;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .add-to-cart-sale:hover, .buy-now-sale:hover {
+    background-color: #4C1D3D;
+  }
+  
+  /* Phần giảm giá */
+  .discount-info-sale {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+    font-weight: bold;
+  }
+  
+  .discount-badge-sale {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 16px;
+    position: relative;
+  }
+  
+  .discounted-price-sale {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .original-price-sale {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #888;
+  }
+  

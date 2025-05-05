@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.4.0",
+    "cors": "^2.8.5",
+    "qrcode.react": "^3.2.0",
+    "react-redux": "^9.1.2",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  },
+  "name": "du-an",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "npm start --prefix du-an",
+    "server": "node backend/server.js",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  }
+}

@@ -1,0 +1,61 @@
+/* Cập nhật màu nền và các phần tử của form đăng ký */
+.register-container {
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh; 
+  background-color: #f7f7f7;
+}
+
+.register-box {
+  width: 400px;
+  background-color: #2C3E50; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white; 
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff; 
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #34495E; 
+  color: white; 
+}
+
+button.register-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #1ABC9C; 
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.register-btn:hover {
+  background-color: #148F77;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}

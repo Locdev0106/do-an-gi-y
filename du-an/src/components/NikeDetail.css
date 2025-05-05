@@ -1,0 +1,268 @@
+/* 1. Ảnh sản phẩm */
+.product-images-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-images-3 img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  
+  .product-info-3 {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center; 
+  }
+  
+  .product-info-3 h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .product-code-3 {
+    color: #888;
+  }
+  
+  .product-price-3 {
+    font-size: 22px;
+    color: red;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .size-selector-3 {
+    margin: 10px 0;
+  }
+  
+  .size-selector-3 button {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+  }
+  
+  .size-selector-3 button.selected {
+    background-color: #1ABC9C;
+    color: white;
+    border-color: #16A085;
+    font-weight: bold;
+  }
+  
+  .size-selector-3 button:hover {
+    background-color: #16A085;
+    color: white;
+  }
+  
+  .quantity-selector-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .quantity-selector-3 button {
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .quantity-selector-3 input {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .cart-buttons-3 {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .buy-now-3,
+  .add-to-cart-3 {
+    background-color: #1ABC9C; 
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .buy-now-3:hover,
+  .add-to-cart-3:hover {
+    background-color: #16a085;
+  }
+  
+  .product-description-3 {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #333;
+    align-items: center;  
+    justify-content: center;  
+  }
+  .product-description-3 h2 {
+    color: #333;
+    text-align: center;  
+  }
+  .product-description-3 ul {
+    list-style-type: none;
+    padding-left: 20px;
+    text-align: center;  
+  }
+  .product-description-3 li {
+    margin-bottom: 10px;
+    text-align: center;  
+  }
+  .info-title{
+    text-align: center;  
+  }
+  .info-note{
+    text-align: center; 
+  }
+  
+  .product-reviews-3 {
+    margin-top: 30px;
+  }
+  
+  .review-item-3 {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-item-3 p {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+ 
+  .add-review-3 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-review-3 input,
+  .add-review-3 select,
+  .add-review-3 textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #fff;
+
+  }
+  
+  .add-review-3 button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-review-3 button:hover {
+    background-color: #45a049;
+  }
+  .collapsed {
+    max-height: 150px;
+    overflow: hidden;
+  }
+  
+  .expanded {
+    max-height: none;
+  }
+  .toggle-expand {
+    background-color: transparent;
+    color: #000;  
+    padding: 8px 710px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;  
+  }
+  
+  .toggle-expand:hover {
+    background-color: rgba(0, 0, 0, 0.1);  
+    color: #ff6347;  
+  }
+  .quantity-selector-3 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  .quantity-selector-3 button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #1ABC9C;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quantity-selector-3 button:hover {
+    background-color: #16A085;
+  }
+  
+  .quantity-selector-3 span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+.login-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-buttons button {
+    background-color: #1ABC9C;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .modal-buttons button:hover {
+    background-color: #16A085;
+  }
+  
+  

@@ -1,0 +1,98 @@
+/* UserManagement.css */
+.user-management-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #2C3E50;
+  }
+  
+  .form-container,
+  .edit-form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .btn-add,
+  .btn-update,
+  .btn-edit,
+  .btn-remove {
+    background-color: #1ABC9C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn-add:hover,
+  .btn-update:hover,
+  .btn-edit:hover,
+  .btn-remove:hover {
+    background-color: #16A085;
+    transform: translateY(-2px); 
+  }
+  
+  .user-list-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn-edit,
+  .btn-remove {
+    padding: 8px 15px;
+  }
+  
+  .btn-remove {
+    background-color: #E67E22;
+  }
+  
+  .btn-remove:hover {
+    background-color: #D35400;
+  }
+  

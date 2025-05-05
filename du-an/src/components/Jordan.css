@@ -1,0 +1,55 @@
+.filter {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 15px; 
+    margin-bottom: 20px; 
+    padding: 10px 20px;
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  
+  .filter-section {
+    display: flex;
+    align-items: center; 
+    gap: 15px;
+  }
+  
+  .filter-section label {
+    font-weight: bold; 
+    color: #2C3E50;
+    white-space: nowrap; 
+  }
+  
+  .filter-section select,
+  .filter-section input {
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    outline: none; 
+    font-size: 14px;
+    max-width: 150px; 
+  }
+  
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+  }
+  
+  @media (max-width: 768px) {
+    .product-list {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product-list {
+      grid-template-columns: 1fr; 
+    }
+  }

@@ -1,0 +1,144 @@
+/* Register page styles */
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.register-box {
+  width: 400px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2C3E50;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button.register-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #1ABC9C;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.register-btn:hover {
+  background-color: #148F77;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+
+footer {
+  background-color: #2C3E50;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 30px; 
+}
+
+footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid #1ABC9C;
+  padding-bottom: 20px;
+}
+
+footer .footer-content > div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+footer .footer-content > div > div {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px;
+}
+
+footer .footer-content h3 {
+  color: #1ABC9C;
+  margin-bottom: 10px;
+}
+
+footer .footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .footer-content ul li {
+  line-height: 1.8;
+}
+
+footer .footer-content .newsletter input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #1ABC9C;
+  width: 250px;
+  outline: none;
+}
+
+footer .footer-content .newsletter button {
+  padding: 10px 20px;
+  background-color: #1ABC9C;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+footer .footer-content .newsletter button:hover {
+  background-color: #148F77;
+}
+
+footer .footer-content .footer-logo img {
+  margin-bottom: 15px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+footer .footer-content .footer-logo p,
+footer .footer-content .footer-logo a {
+  color: #fff;
+}
+
+footer .footer-content .footer-logo a {
+  color: #1ABC9C;
+  text-decoration: none;
+}
+
+footer .footer-content .footer-logo a:hover {
+  text-decoration: underline;
+}

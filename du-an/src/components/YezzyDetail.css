@@ -1,0 +1,204 @@
+.yezzydetail2 {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+.yezzy-images2 {
+    flex: 1;
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
+}
+.yezzy-images2 img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.yezzy-details-and-reviews2 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.yezzy-info2 {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.yezzy-reviews2 {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+
+.yezzy-purchase2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.yezzy-purchase2 h1 {
+    font-size: 24px;
+    color: #333;
+}
+.yezzy-code2{
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .yezzy-price2 {
+    color: #E74C3C;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .yezzy-size-selector2 p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #1ABC9C;
+  }
+  .yezzy-sizes2 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .yezzy-sizes2 button {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+  }
+  
+  .yezzy-sizes2 button.selected {
+    background-color: #1ABC9C;
+    color: white;
+    border-color: #16A085;
+    font-weight: bold;
+  }
+  
+  .yezzy-sizes2 button:hover {
+    background-color: #16A085;
+    color: white;
+  }
+  .Yeezy-quantity  {
+    color: #1ABC9C;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .quantity-selector2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  .quantity-selector2 button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #1ABC9C;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quantity-selector2 button:hover {
+    background-color: #16A085;
+  }
+  
+  .quantity-selector2 span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+.yezzy-cart-buttons2 {
+    display: flex;
+    gap: 10px;
+}
+
+.yezzy-buy-now2, .yezzy-add-to-cart2 {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.yezzy-buy-now2 {
+    background-color: #1ABC9C;
+    color: white;
+}
+.yezzy-add-to-cart2 {
+    background-color: #E74C3C;
+    color: white;
+}
+.yezzy-buy-now2:hover{
+    background-color: #16A085;
+}
+.yezzy-add-to-cart2:hover {
+    background-color: #ca3d2d;
+}
+.yezzy-reviews2 {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .yezzy-reviews2 h3 {
+    font-size: 20px;
+    color: #16A085;
+    margin-bottom: 20px;
+  }
+  
+  .yezzy-review-item2 {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .yezzy-review-user2 {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .yezzy-review-rating2 {
+    font-size: 14px;
+    color: #E74C3C;
+  }
+  
+  .yezzy-review-comment2 {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+  }

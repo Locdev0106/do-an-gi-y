@@ -1,0 +1,297 @@
+
+.product-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; 
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-images {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.thumbnails {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.thumbnails img {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.thumbnails img:hover {
+  transform: scale(1.05);
+  border: 2px solid #1ABC9C;
+}
+
+.product-info {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.product-info h1 {
+  font-size: 28px;
+  color: #16A085;
+  margin-bottom: 10px;
+}
+
+.product-code {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.product-price {
+  color: #E74C3C;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.size-selector p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #1ABC9C;
+}
+.product-quantity  {
+  color: #1ABC9C;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sizes {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.sizes button {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+.sizes button.selected {
+  background-color: #1ABC9C;
+  color: white;
+  border-color: #16A085;
+  font-weight: bold;
+}
+
+.sizes button:hover {
+  background-color: #16A085;
+  color: white;
+}
+
+.quantity-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.quantity-actions button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #1ABC9C;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.quantity-actions button:hover {
+  background-color: #16A085;
+}
+
+.quantity-actions span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cart-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.add-to-cart2,
+.buy-now2 {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.add-to-cart2 {
+  background-color: #F1C40F;
+  color: white;
+}
+
+.add-to-cart2:hover {
+  background-color: #D4AC0D;
+}
+
+.buy-now2 {
+  background-color: #E74C3C;
+  color: white;
+}
+
+.buy-now2:hover {
+  background-color: #C0392B;
+}
+
+.add-to-cart2:active,
+.buy-now2:active {
+  transform: scale(0.95);
+}
+
+
+.product-description {
+  margin-top: 30px;
+  margin-bottom: 30px; 
+}
+
+.product-description h3 {
+  font-size: 20px;
+  color: #16A085;
+  margin-bottom: 10px;
+}
+
+.product-description p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+
+.product-reviews {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.product-reviews h3 {
+  font-size: 20px;
+  color: #16A085;
+  margin-bottom: 20px;
+}
+
+.review-item {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.review-user {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+.review-rating {
+  font-size: 14px;
+  color: #E74C3C;
+}
+
+.review-comment {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+
+
+.product-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; 
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-main {
+  display: flex;
+  gap: 20px;
+}
+
+.product-reviews-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.product-reviews {
+  margin-bottom: 20px;
+}
+
+.review-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.review-item:last-child {
+  border-bottom: none;
+}
+
+.review-user {
+  font-weight: bold;
+}
+
+.review-rating {
+  color: #fbc02d;
+}
+
+.add-review input,
+.add-review select,
+.add-review textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-review button {
+  padding: 10px 20px;
+  background-color: #16A085;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-review button:hover {
+  background-color: #1ABC9C;
+}
+
+
+.product-description {
+  margin-top: 30px; 
+}
+
+.product-reviews-section {
+  margin-top: 40px; 
+}
